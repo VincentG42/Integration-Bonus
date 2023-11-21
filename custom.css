@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Montserrat:wght@100&display=swap');
+
+body{
+    font-family: 'Montserrat', serif;
+}
+
+header{
+    background-color: #f79d85;
+}
+
+.brandname{
+    font-family: 'Akaya Telivigala', sans-serif;
+}
+.togglerorange{
+    color: #f79d85;
+}
