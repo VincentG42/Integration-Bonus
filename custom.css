@@ -4,7 +4,7 @@ body{
     font-family: 'Montserrat', serif;
 }
 
-header{
+.top_header{
     background-color: #f79d85;
 }
 
@@ -12,5 +12,15 @@ header{
     font-family: 'Akaya Telivigala', sans-serif;
 }
 .togglerorange{
+    color: #f79d85;
+}
+
+#home{
+    background-image: url(./img/01PIC.jpg);
+}
+#home .greenbutton{
+    background-color: #acd579;
+}
+#home h1, #home h2{
     color: #f79d85;
 }
