@@ -3,6 +3,9 @@
 body{
     font-family: 'Montserrat', serif;
 }
+a{
+    text-decoration: none !important;
+}
 
 .top_header{
     background-color: #f79d85;
@@ -24,3 +27,12 @@ body{
 #home h1, #home h2{
     color: #f79d85;
 }
+.divformations{
+    background-color: #feefea ;
+}
+ .textformations{
+    color: #f79d85;
+ }
+ .divcalendrier{
+    background-color: #f79d85;
+ }
