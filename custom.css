@@ -36,3 +36,14 @@ a{
  .divcalendrier{
     background-color: #f79d85;
  }
+
+ #philosophie{
+    background-image: url(./img/philo.jpg);
+ }
+ .titre_philosophie{
+    border-left: black solid 5px;
+ }
+
+#philosophie .greenbutton{
+    background-color: #acd579;
+}
