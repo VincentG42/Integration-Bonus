@@ -47,3 +47,6 @@ a{
 #philosophie .greenbutton{
     background-color: #acd579;
 }
+#gallerie .titre_gallerie{
+    border-left: black solid 5px;
+ }
