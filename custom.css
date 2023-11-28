@@ -50,3 +50,15 @@ a{
 #gallerie .titre_gallerie{
     border-left: black solid 5px;
  }
+
+ #actualites{
+    background-color: #fef0ef;
+ }
+
+ #actualites .greenbutton{
+    background-color: #acd579
+}
+
+#actualites a{
+    color: #f79d85;;
+ }
