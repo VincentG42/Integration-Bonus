@@ -62,3 +62,33 @@ a{
 #actualites a{
     color: #f79d85;;
  }
+
+ input{
+border-bottom: 1px solid #707070;
+border-left: 1px solid #707070
+ }
+
+ #contact .greenbutton{
+    background-color: #acd579
+}
+
+#contact .row{
+   
+    background-color:none;
+}
+
+#contact input{
+    background-color: none !important;
+}
+
+#container-form{
+    
+    background-image: url(./img/bg-contact.jpg);
+    background-position: right;
+    background-size: cover;
+}
+
+/* #contact>div{
+    padding-top: -20px ;
+    padding-bottom: -20px;
+} */
