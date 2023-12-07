@@ -113,3 +113,8 @@ footer{
     background-color: #f79d85;
     
 }
+
+
+ footer a{
+    text-decoration: none;
+}
