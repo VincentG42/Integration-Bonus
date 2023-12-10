@@ -39,6 +39,7 @@ a{
 
  #philosophie{
     background-image: url(./img/philo.jpg);
+    background-repeat: no-repeat;
  }
  .titre_philosophie{
     border-left: black solid 5px;
@@ -47,7 +48,7 @@ a{
 #philosophie .greenbutton{
     background-color: #acd579;
 }
-#gallerie .titre_gallerie{
+#galerie .titre_galerie{
     border-left: black solid 5px;
  }
 
@@ -58,6 +59,9 @@ a{
  #actualites .greenbutton{
     background-color: #acd579
 }
+#actualites .titre_actu{
+    border-left: black solid 5px;
+ }
 
 #actualites a{
     color: #f79d85;
