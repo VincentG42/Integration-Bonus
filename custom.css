@@ -20,6 +20,7 @@ a{
 
 #home{
     background-image: url(./img/01PIC.jpg);
+    background-repeat: no-repeat;
 }
 #home .greenbutton{
     background-color: #acd579;
@@ -121,4 +122,9 @@ footer{
 
  footer a{
     text-decoration: none;
+}
+
+.logo-footer{
+    filter:brightness(100)
+
 }
