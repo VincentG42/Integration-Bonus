@@ -13,10 +13,10 @@
 <body>
     <header>
         <div class="top_header">
-            <div class="container">
-                <div class="row py-3 justify-content-between">
-                    <div class="text-white d-flex align-items-center col-md-6">
-                        <div class="mx-2 d-flex">
+            <div class="container-sm">
+                <div class="row py-3 justify-content-md-between">
+                    <div class="text-white d-flex flex-column flex-md-row justify-content-center col-lg-8 justify-content-lg-start">
+                        <div class="mx-2 d-flex justify-content-center "><!--telephone-->
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="20" height="20" x="0" y="0"
                                 viewBox="0 0 473.806 473.806" style="enable-background:new 0 0 512 512"
@@ -39,9 +39,9 @@
                                     </g>
                                 </g>
                             </svg>
-                            <p>+33(0)4 78 45 78 45</p>
+                            <p class="mx-1">+33(0)4 78 45 78 45</p>
                         </div>
-                        <div class="mx-2 d-flex">
+                        <div class="mx-2 d-flex justify-content-center"><!--mail-->
                             <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                 xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20"
                                 viewBox="0 0 483.3 483.3" fill="white" style="enable-background:new 0 0 483.3 483.3;"
@@ -59,10 +59,10 @@
                                     </g>
                                
                             </svg>
-                            <p>info@ecoledeouf.com</p>
+                            <p class="mx-1">info@ecoledeouf.com</p>
 
                         </div>
-                        <div class="mx-2 d-flex">
+                        <div class="mx-2 d-flex justify-content-center"><!--adress-->
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="20" height="20" x="0" y="0"
                                 viewBox="0 0 477.874 477.874" style="enable-background:new 0 0 512 512"
@@ -78,10 +78,10 @@
                                   
                                 </g>
                             </svg>
-                            <p> 28 Avenue lorem2 69009 LYON</p>
+                            <p class="mx-1"> 28 Avenue lorem2 69009 LYON</p>
                         </div>
                     </div>
-                    <div class="col-md-2 col-12 text-center"><!--icones reseaux sociaux-->
+                    <div class="col-12 text-center col-lg-2 justify-content-lg-end"><!--icones reseaux sociaux-->
                         <a href="#" class="mx-2 link-underline-opacity-0">
                             <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                                 xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="20" height="20" x="0" y="0"
@@ -160,11 +160,11 @@
         <div class="bottom_header"><!--navbar-->
             
                 <nav class="navbar navbar-expand-lg bg-body-white pb-0">
-                    <div class="container">
+                    <div class="container-md">
         
-                        <div class="d-flex align-items-center">
-                            <a class="navbar-brand" href="#"><img src="./img/icon.png" alt="logo" height="75px"></a>
-                            <p class="brandname h2">Ecole de Médecine Chinoise</p>
+                        <div class="d-flex">
+                            <a class="navbar-brand" href="#home"><img src="./img/icon.png" alt="logo" height="75px"></a>
+                            <p class="brandname h2 mt-4">Ecole de Médecine Chinoise</p>
                         </div>
                         <div>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -172,29 +172,29 @@
                             </button>
                             <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#"><img src="./img/home.svg" alt="logo_home" height="20px"></a>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link text-center" aria-current="page" href="#home"><img src="./img/home.svg" alt="logo_home" height="20px"></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Philosophie</a>
+                                    <a class="nav-link deg text-end" href="#philosophie">Philosophie</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-disabled="true">L'Equipe</a>
+                                    <a class="nav-link deg text-end" aria-disabled="true">L'Equipe</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Formations</a>
+                                    <a class="nav-link deg text-end" aria-current="page" href="#formations">Formations</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Actualités</a>
+                                    <a class="nav-link deg text-end" aria-current="page" href="#actualites">Actualités</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Calendrier</a>
+                                    <a class="nav-link deg text-end" aria-current="page" href="#formations">Calendrier</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Contact</a>
+                                    <a class="nav-link deg text-end" aria-current="page" href="#contact">Contact</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" aria-current="page" href="#">Liens</a>
+                                    <a class="nav-link deg text-end" aria-current="page" href="#footer">Liens</a>
                                 </li>
                             </ul>
                         </div>
@@ -216,7 +216,7 @@
                         unde ex eum similique ea veritatis error voluptatem dicta!
                     </p>
                     <a href="#" class="pb-5">
-                        <button type="button" class="btn rounded-5 greenbutton text-white my-2">EN SAVOIR PLUS</button>
+                        <button type="button" class="btn rounded-5 greenbutton text-white fs-6 my-2">EN SAVOIR PLUS</button>
                     </a>
                 </div>
             </div>
@@ -225,17 +225,17 @@
         <section id="formations">
             <div class="container-md">
                 <div class="row justify-content-center align-items-center">
-                    <div class="divformations col-3 d-flex flex-column text-center align-items-center py-5 my-5 mx-3">
-                        <svg xmlns="http://www.w3.org/2000/svg"  class="pt-1" fill="#f79d85" viewBox="0 0 448 512" width="53px" height="auto"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192h80v56H48V192zm0 104h80v64H48V296zm128 0h96v64H176V296zm144 0h80v64H320V296zm80-48H320V192h80v56zm0 160v40c0 8.8-7.2 16-16 16H320V408h80zm-128 0v56H176V408h96zm-144 0v56H64c-8.8 0-16-7.2-16-16V408h80zM272 248H176V192h96v56z"/></svg>
+                    <div class="divformations col-3 d-flex flex-column  justify-content-center text-center align-items-center mx-3 my-5">
+                        <svg xmlns="http://www.w3.org/2000/svg"  class="" fill="#f79d85" viewBox="0 0 448 512" width="80px" height="80px"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192h80v56H48V192zm0 104h80v64H48V296zm128 0h96v64H176V296zm144 0h80v64H320V296zm80-48H320V192h80v56zm0 160v40c0 8.8-7.2 16-16 16H320V408h80zm-128 0v56H176V408h96zm-144 0v56H64c-8.8 0-16-7.2-16-16V408h80zM272 248H176V192h96v56z"/></svg>
                         <h4 class="textformations">Formations</h4>
-                        <p class="pb-1">Lorem, ipsum dolor.</p>
+                        <p class="">Lorem, ipsum dolor.</p>
                     </div>
                     
-                    <div class="divcalendrier text-white col-3 d-flex flex-column text-center align-items-center my-5 mx-3 p-1">
-                        <div class="border py-5 px-5">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 512 512" width="60px" height="auto"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M160 0c17.7 0 32 14.3 32 32V64H320V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H32V112c0-26.5 21.5-48 48-48h48V32c0-17.7 14.3-32 32-32zM32 192H480V464c0 26.5-21.5 48-48 48H80c-26.5 0-48-21.5-48-48V192zM344 376c13.3 0 24-10.7 24-24s-10.7-24-24-24H168c-13.3 0-24 10.7-24 24s10.7 24 24 24H344z"/></svg>
-                        <h4>Calendrier</h4>
-                        <p>Lorem, ipsum dolor.</p>
+                    <div class="divcalendrier text-white col-3 d-flex    flex-column justify-content-center text-center align-items-center mx-3 my-5 ">
+                        <div class="borderCalendrier">
+                            <svg xmlns="http://www.w3.org/2000/svg"  class="mt-5" fill="white" viewBox="0 0 448 512" width="80px" height="80px"><!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192h80v56H48V192zm0 104h80v64H48V296zm128 0h96v64H176V296zm144 0h80v64H320V296zm80-48H320V192h80v56zm0 160v40c0 8.8-7.2 16-16 16H320V408h80zm-128 0v56H176V408h96zm-144 0v56H64c-8.8 0-16-7.2-16-16V408h80zM272 248H176V192h96v56z"/></svg>
+                            <h4>Calendrier</h4>
+                            <p>Lorem, ipsum dolor.</p>
                         </div>
                      </div>
                 </div>
@@ -243,14 +243,14 @@
         </section>
 
         <section id="philosophie">
-            <div class="container py-5">
+            <div class="container-sm py-5">
                 <div class="row ">
                     <div class="col-md-6"></div>
                     <article class="col-6">
                         <div class="titre_philosophie my-5 px-2">
-                            <h4 class="text-dark"> Notre </h4>
-                            <h3 class="text-dark">Philosophie</h3>
-                        </div>
+                            <h4 class="text-secondary"> Notre </h4>
+                            <h3 class="fw-bold text-secondary">Philosophie</h3>
+                        </div class="ms-2">
                         <p> We provide the most full medical services, so every person could have the opportunity to receive qualitative medical help</p>
                         <p> Clinical excellence, divzersity, and access to innovative technology are all hallmarcks of the graduate medical education experience at Careex. Oour residents, fellows, and renowned staff share their experience working at Careex</p>
                         <p class="bold"> </p>
@@ -265,10 +265,10 @@
         <section id="galerie">
                 <div class="container-fluid mb-5 px-0 mx-0">
                     <div class="row justify-content-center ">
-                        <h3 class="titre_galerie col-1 text-dark my-3">Galerie</h3>
+                        <h3 class="titre_galerie col-1 fw-bold text-secondary my-3">Galerie</h3>
                     </div>
-                    <div class="row  justify-content-center">
-                        <div class=" col-md-6 col-12">
+                    <div class="row justify-content-center">
+                        <div class=" col-lg-6 col-12 d-none d-lg-block d-xl-block">
                             <div class="row  mb-3">
                                 <img src="./img/Sans-titre-8.jpg" alt="plats vue dessus" class="col-6" width=100 height="auto">
                                 <img src="./img/Sans-titre-9.jpg" alt="salon asiatique" class="col-6" width=100 height="auto">
@@ -277,14 +277,14 @@
                                 <img src="./img/Sans-titre-6.jpg" alt="pissenlit" class="col-12">
                             </div>
                         </div>
-                        <div class=" row col-md-3 col-12">
-                            <img src="./img/Sans-titre-10.jpg" alt="arbre" class="mb-3"width=100 height="auto">
-                            <img src="./img/Sans-titre-7.jpg" alt="classe" class="mb-3" width=100 height="auto">
-                            <img src="./img/Sans-titre-4.jpg" alt="pissenlits" class="mb-2" width=100 height="auto">
+                        <div class=" row col-lg-3 col-12">
+                            <img src="./img/Sans-titre-10.jpg" alt="arbre" class="mb-3 ms-md-2"width=100 height="auto">
+                            <img src="./img/Sans-titre-7.jpg" alt="classe" class="mb-3 ms-md-2" width=100 height="auto">
+                            <img src="./img/Sans-titre-4.jpg" alt="pissenlits" class="mb-2 ms-md-2" width=100 height="auto">
                         </div>
-                        <div class=" row col-md-3 col-12">
-                            <img src="./img/Sans-titre-11.jpg" alt="arbre2" width=100 height="auto" class="mb-3">
-                            <img src="./img/Sans-titre-5.jpg" alt="reunion" class="mb-2" width=100 height="auto">
+                        <div class=" row col-lg-3 col-12">
+                            <img src="./img/Sans-titre-11.jpg" alt="arbre2" width=100 height="auto" class="mb-3 ms-md-2">
+                            <img src="./img/Sans-titre-5.jpg" alt="reunion" class="mb-2 ms-md-2" width=100 height="auto">
                         </div>
                     </div>
 
@@ -293,8 +293,8 @@
 
         <section id="actualites">
             <div class="container-md">
-                <div class="row" class="titre_actu col-1 text-dark my-3">
-                    <h3>Actualités</h3>
+                <div class="row titre_actu justify-content-center my-3">
+                    <h3 class="py-5 fw-bold  col-2 text-secondary">Actualités</h3>
                 </div>
                 <div class="row justify-content-center">
                     <article class="col-md-4 col-12 px-2">
@@ -305,7 +305,7 @@
                             voluptatem autem quae dolorum cum libero fuga? Tempore iusto nam laboriosam aut quasi vitae
                             excepturi minima similique sunt?</p>
                         <div class="d-flex justify-content-end mt-0">
-                                <a href="" class="text-end fw-bold"> >>> Llire l'article complet</a>
+                                <a href="" class="text-end fw-bold"> >>> Lire l'article complet</a>
                         </div>
                         </div>
                         
@@ -318,7 +318,7 @@
                             voluptatem autem quae dolorum cum libero fuga? Tempore iusto nam laboriosam aut quasi vitae
                             excepturi minima similique sunt?</p>
                         <div class="d-flex justify-content-end mt-0">
-                                <a href="" class="text-end fw-bold"> >>> Llire l'article complet</a>
+                                <a href="" class="text-end fw-bold"> >>> Lire l'article complet</a>
                         </div>
                         </div>
                     </article>
@@ -330,7 +330,7 @@
                             voluptatem autem quae dolorum cum libero fuga? Tempore iusto nam laboriosam aut quasi vitae
                             excepturi minima similique sunt?</p>
                         <div class="d-flex justify-content-end mt-0">
-                                <a href="" class="text-end fw-bold"> >>> Llire l'article complet</a>
+                                <a href="" class="text-end fw-bold"> >>> Lire l'article complet</a>
                         </div>
                         </div>
                     </article>
@@ -375,10 +375,10 @@
 
         </section>
     </main>
-    <footer>
-        <div class="container-md pt-5">
+    <footer id="footer">
+        <div class="container-md pt-5 pb-3 pe-3">
             <div class="row">
-                <div class="col-2"><!--icones reseaux sociaux-->
+                <div class=" d-flex  flex-lg-column text-start"><!--icones reseaux sociaux-->
                     <a href="#" class="mx-2 link-underline-opacity-0">
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                             xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="20" height="20" x="0" y="0"
@@ -483,13 +483,13 @@
                 <p class="brandname  text-white text-center h2">Ecole de Médecine Chinoise</p>
             </div>
             <div class=" text-white row d-flex mt-4">
-                <div class="col-md-3">
+                <div class="col-md-3 text-sm-center">
                     <h4>Ecole de MTC</h4>
                     <div> We are a medical center, which provides a wide range of medical services for adults and kids. 
                         We take care about your health in a professionnal way!
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 text-sm-center">
                     <h4>Mentions légales</h4>
                     <article>
                          <div>
@@ -504,26 +504,26 @@
                         </div>
                     </article>
                 </div>
-                <div class="col-md-3 ">
-                    <h4>latest Posts</h4>
+                <div class="col-md-3 text-sm-center">
+                    <h4>Latest Posts</h4>
                     <div>
-                        <a href="#"> Curabitur egestas malesuada</a>
+                        <a href="#" class="link-underline-opacity-0 link-light"> Curabitur egestas malesuada</a>
                         <p>Jul 12, 2016</p>
-                        <a href="#">Sed elementum sodales</a>
+                        <a href="#" class="link-underline-opacity-0 link-light">Sed elementum sodales</a>
                         <p>Jun 25, 2016</p>
-                        <a href="#">Donec cursus ex eu elementum</a>
+                        <a href="#" class="link-underline-opacity-0 link-light">Donec cursus ex eu elementum</a>
                         <p>jun 12,2016</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 text-sm-center">
                     <h4>Arborescence</h4>
-                    <div>
-                        <a href="">Home</a>
-                        <a href="">About</a>
-                        <a href="">Doctors</a>
-                        <a href="">Services</a>
-                        <a href="">Contacts</a>
-                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="" class="link-underline-opacity-0 link-light">Home</a>
+                        <a href="" class="link-underline-opacity-0 link-light">About</a>
+                        <a href="" class="link-underline-opacity-0 link-light">Doctors</a>
+                        <a href="" class="link-underline-opacity-0 link-light">Services</a>
+                        <a href="" class="link-underline-opacity-0 link-light">Contacts</a>
+                    </divlink-underline-opacity-0>
                 </div>
             </div>
         </div>

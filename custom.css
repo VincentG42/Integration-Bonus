@@ -14,13 +14,23 @@ a{
 .brandname{
     font-family: 'Akaya Telivigala', sans-serif;
 }
-.togglerorange{
-    color: #f79d85;
+.navbar-toggler{
+    color: #f79d85 !important;
+
+}
+
+.nav-item .deg:hover{
+    background: linear-gradient(90deg, 
+       white 0%,
+        #f79d85 50%,
+        white 100%
+    );
 }
 
 #home{
     background-image: url(./img/01PIC.jpg);
     background-repeat: no-repeat;
+    background-position: center;
 }
 #home .greenbutton{
     background-color: #acd579;
@@ -30,28 +40,74 @@ a{
 }
 .divformations{
     background-color: #feefea ;
+    min-height: 250px;
+    min-width: 250px;
+    max-width: 250px;
+    max-height: 250px;
 }
  .textformations{
     color: #f79d85;
+    
  }
  .divcalendrier{
     background-color: #f79d85;
+    min-height: 250px;
+    min-width: 250px;
+    max-width: 250px;
+    max-height: 250px;
  }
 
- #philosophie{
-    background-image: url(./img/philo.jpg);
-    background-repeat: no-repeat;
+ .borderCalendrier{
+    min-height: 230px;
+    min-width: 230px;
+    max-width: 230px;
+    max-height: 230px;
+    border: white 2px solid;
+
  }
- .titre_philosophie{
-    border-left: black solid 5px;
+ h3{
+    position: relative;
+    color: #575759;
  }
+ #actualites h3::before{
+    content: '';
+    width: 0;
+    height: 16px;
+    position: absolute;
+    border: 2px solid black;
+    top:55px;
+    left: -12px;
+ }
+ #galerie h3::before{
+    content: '';
+    width: 0;
+    height: 16px;
+    position: absolute;
+    border: 2px solid black;
+    top:8px;
+    left: -12px;
+ }
+
+
+.titre_philosophie{
+    position: relative;
+}
+ .titre_philosophie::before{
+    content: '';
+    width: 0;
+    height: 55px;
+    position: absolute;
+    border: 2px solid black;
+    top:8px;
+    left: -20px;
+ }
+
+
 
 #philosophie .greenbutton{
     background-color: #acd579;
 }
-#galerie .titre_galerie{
-    border-left: black solid 5px;
- }
+
 
  #actualites{
     background-color: #fef0ef;
@@ -60,9 +116,6 @@ a{
  #actualites .greenbutton{
     background-color: #acd579
 }
-#actualites .titre_actu{
-    border-left: black solid 5px;
- }
 
 #actualites a{
     color: #f79d85;
@@ -111,7 +164,7 @@ border-left: 1px solid #707070;
     border-left: none;
     border-bottom: 1px solid grey;
     border-left:1px solid grey;
-    background-color: #f1f1f3;
+    background-color: #f1f1f300;
 }
 
 footer{
@@ -128,3 +181,59 @@ footer{
     filter:brightness(100)
 
 }
+
+
+
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    #philosophie{
+        background-image: url(./img/philo.jpg);
+        background-repeat: no-repeat;
+        background-position: -300px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #philosophie{
+        background-image: url(./img/philo.jpg);
+        background-repeat: no-repeat;
+        background-position: -300px;
+    }
+     
+    
+}
+    
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #philosophie{
+        background-image: url(./img/philo.jpg);
+        background-repeat: no-repeat;
+        background-position: -250px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #philosophie{
+        background-image: url(./img/philo.jpg);
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+ }
+
+    
+ 
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #philosophie{
+        background-image: url(./img/philo.jpg);
+        background-repeat: no-repeat;
+        background-position: -150px 0;
+    
+     }
+    
+    
+ }
